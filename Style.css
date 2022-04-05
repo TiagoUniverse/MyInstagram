@@ -29,13 +29,13 @@ border-bottom: 1px solid #dbdbdb;
     padding: 0% !important;
     background-color: #fafafa !important;
     text-align: center;
-    font-size: 15px;
+    font-size: 15px  !important;
 }
 
 .img-nav {
     border-radius: 100%;
     -o-border-radius: 100%;
-    -wekbit-border-radius: 100%;
+    -webkit-border-radius: 100%;
     max-width: 30px;
     max-height: 25px;
 }
@@ -43,4 +43,31 @@ border-bottom: 1px solid #dbdbdb;
 .icons {
     padding: 4%;
     font-size: 25px;
+}
+
+.img-profile {
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-borderradius: 100%;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.linha-perfil-1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.username{
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.button-edit{
+    color: black !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-color: #dae1e7 !important;
 }

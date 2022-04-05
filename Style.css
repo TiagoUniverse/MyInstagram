@@ -1,3 +1,7 @@
+.body{
+    background-color: #fafafa;
+}
+
 .nav-top {
   
 height: 63px;
@@ -26,4 +30,17 @@ border-bottom: 1px solid #dbdbdb;
     background-color: #fafafa !important;
     text-align: center;
     font-size: 15px;
+}
+
+.img-nav {
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -wekbit-border-radius: 100%;
+    max-width: 30px;
+    max-height: 25px;
+}
+
+.icons {
+    padding: 4%;
+    font-size: 25px;
 }

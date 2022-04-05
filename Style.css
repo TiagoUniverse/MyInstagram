@@ -57,7 +57,8 @@ border-bottom: 1px solid #dbdbdb;
 .linha-perfil-1{
     padding-top: 20px;
     padding-bottom: 10px;
-
+  /* Esse padding-left foi pra deixar o texto mais pra direita, ficando parecido com o novo visual do instagram*/
+    padding-left: 45px;
 }
 
 .username{
@@ -71,3 +72,28 @@ border-bottom: 1px solid #dbdbdb;
     font-weight: 600 !important;
     border-color: #dae1e7 !important;
 }
+
+.btn {
+    padding: .100rem .50rem !important ;
+}
+
+.profile-datas{
+    font-size: 16px;
+}
+
+.name{
+    font-size: 16px;
+    display: inline;
+    font-weight: 600 !important;
+}
+
+.profile-desc{
+    font-size: 16px ;
+}
+
+.stories{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+

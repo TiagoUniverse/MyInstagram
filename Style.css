@@ -55,8 +55,8 @@ border-bottom: 1px solid #dbdbdb;
 }
 
 .linha-perfil-1{
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
   /* Esse padding-left foi pra deixar o texto mais pra direita, ficando parecido com o novo visual do instagram*/
     padding-left: 45px;
 }
@@ -97,3 +97,46 @@ border-bottom: 1px solid #dbdbdb;
     font-weight: 600;
 }
 
+.nav-feed{
+    border-bottom: none !important;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    padding-bottom: 15px;
+}
+
+.nav-link1{
+    color: #495057;
+    background-color: #fafafa !important;
+    border-color: gray #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-link-2{
+    color: yellow;
+    background-color: #fafafa !important;
+    border-color: #fff #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card {
+    border: 0px solid rgb(0, 0, .125) !important;
+    border-radius: .0rem !important;
+}
+
+.card .card-img .card-img-top {
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+}
+
+.block-img{
+    /* Estou acrescentando este estilo css para bloquear do usuário salvar a imagem com o mouse, da mesma forma que nem o instagram
+     não permite que o usuário no PC baixe facilmente as imagens.*/
+    pointer-events: none;
+}

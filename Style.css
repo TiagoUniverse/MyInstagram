@@ -55,8 +55,8 @@ border-bottom: 1px solid #dbdbdb;
 }
 
 .linha-perfil-1{
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
   /* Esse padding-left foi pra deixar o texto mais pra direita, ficando parecido com o novo visual do instagram*/
     padding-left: 45px;
 }
@@ -123,4 +123,14 @@ border-bottom: 1px solid #dbdbdb;
     border-top-left-radius: .0rem !important;
     font-size: 12px;
     font-weight: 600;
+}
+
+.card {
+    border: 0px solid rgb(0, 0, .125) !important;
+    border-radius: .0rem !important;
+}
+
+.card .card-img .card-img-top {
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
 }

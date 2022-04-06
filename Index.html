@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     <title>Tiago César @TiagoCesar_</title>
+    <link rel="icon" type="image/jpg" href="images/Icon.jpg" >
+
   </head>
+
+
   <body class="body">
     
     <header> <!--   navbar-expand-lg     bg-light  // o big-light não tava deixando mudar a cor-->
@@ -31,14 +35,120 @@
           <i class ="bi bi-inbox icons"></i>
           <i class ="bi bi-compass icons"></i>
           <i class ="bi bi-heart icons"></i>
-          <img class="img-nav" src="images/foto-instagram.jpeg">
+          <img class="img-nav" src="images/foto-instagram.jpg">
         </div>
       </nav>
     </header>
     
-<h1> Teste1</h1>
 
+    <section>  <!-- Os valores com limite de pixel igual a 12-->
+      <div class=" container">
+          <div class="row">
+            <div class= "class= col-0 col-md-2">  </div>
+            <div class= "class= col-12 col-md-8"> 
+                <div class="container">
+                  <div class="row" style="padding-top: 20px;">
+                    <div class="col-3"> 
+                      <img class="img-profile" src="images/foto-instagram.jpg">  
+                    </div>
+                    <div class="col-7"> 
+                      <div class="row linha-perfil-1"> 
+                         <div class="col-8 col-lg-5"> 
+                           <h2 class="username"> tiagocesar_ </h2>
+                         </div>
+                         <div class="col-4 col-lg-6">
+                           <button type="button" class="btn btn-outline-secondary button-edit"> Editar perfil</button>
+                         <!-- <div class="engrenagem">     ACRESCENTEI a engrenagem no insta-->
+                             <i class="bi bi-gear-wide engrenagem" style="font-size: 25px; padding-left:6px; " ></i>
+                       <!--   </div>   -->
+                        
+                          </div>
+                       
+                        <div class="row">
+                            <div class="col-4">
+                                <p class="profile-datas"> <strong> 131 </strong>  publicações </p>
+                            </div>
+                            <div class="col-4">
+                              <p class="profile-datas"> <strong> 468 </strong>  seguidores </p>
+                          </div>
+                          <div class="col-4">
+                            <p class="profile-datas"> <strong> 764 </strong>  seguindo </p>
+                        </div>
+                        <div class="row"> 
+                          <div class="col-12"> 
+                             <h1 class="name"> Tiago César </h1>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <p class="profile-desc"> Um pedacinho de minhas aventuras. Os bastidores você encontra comigo!
+                              https://www.4shared.com/file/d1e86_2mea/Instalador_de_A_jornada_de_ser.html? </p>
+                          </div>
+                        </div>
+                        </div>
+                      </div>  
+                    </div>
+                    <div class="col-2">  </div>
+                  </div>
+                </div>            
+           
+                <div style="padding-top: 0px;">
+                  <div class="row">
+                      <div class="col-2">  <canvas id="myCrl"></canvas> </div>
+                      <div class="col-2"> <canvas id="myCrl1"></canvas></div>
+                      <div class="col-2"> <canvas id="myCrl2"></canvas></div>
+                  </div>
+                </div>
+                <div style="padding-bottom: 40px;">
+                  <div class="row">
+                      <div class="col-2 stories">  Lives e o ca...</div>
+                      <div class="col-2 stories">  Spotify</div>
+                      <div class="col-2 stories">  Guardiã Rosa</div>
+                  </div>
+                </div>
+           
+           
+              </div>
+            <div class= "class= col-0 col-md-2">  </div>
+          </div>
+          
+      </div>
+    </section>
 
+    <script type="text/javascript">
+
+      var crl = document.getElementById('myCrl').getContext('2d');
+
+      crl.beginPath();
+      crl.arc(60,100,40,0,2 * Math.PI);
+      crl.fillStyle = '#00ACC1';
+      crl.fill();
+      crl.linewidth = 5;
+      crl.strokeStyle = '#dbdbdb';
+      crl.stroke();
+
+      
+      var crl1 = document.getElementById('myCrl1').getContext('2d');
+
+      crl1.beginPath();
+      crl1.arc(60,100,40,0,2 * Math.PI);
+      crl1.fillStyle = '#F8BBD0';
+      crl1.fill();
+      crl1.linewidth = 5;
+      crl1.strokeStyle = '#dbdbdb';
+      crl1.stroke();
+
+      var crl2 = document.getElementById('myCrl2').getContext('2d');
+
+      crl2.beginPath();
+      crl2.arc(60,100,40,0,2 * Math.PI);
+      crl2.fillStyle = '#e91e63';
+      crl2.fill();
+      crl2.linewidth = 5;
+      crl2.strokeStyle = '#dbdbdb';
+      crl2.stroke();
+    </script>
+     
     
 
     <!-- Optional JavaScript; choose one of the two! -->

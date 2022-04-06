@@ -134,3 +134,9 @@ border-bottom: 1px solid #dbdbdb;
     border-top-left-radius: 0rem !important;
     border-top-right-radius: 0rem !important;
 }
+
+.block-img{
+    /* Estou acrescentando este estilo css para bloquear do usuário salvar a imagem com o mouse, da mesma forma que nem o instagram
+     não permite que o usuário no PC baixe facilmente as imagens.*/
+    pointer-events: none;
+}
